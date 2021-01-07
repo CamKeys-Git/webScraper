@@ -12,7 +12,7 @@ URL = ''
 
 If price reaches the given threshold an email will be sent.
 
-```
+```python
 if converted_price < 1.300:
     send_mail()
   print(converted_price)
