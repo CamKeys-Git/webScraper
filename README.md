@@ -11,7 +11,7 @@ Enter a product URL to parse information from (price, title etc.).
 URL = ''
 ```
 
-If the price reaches the given threshold an email will be sent using smtplib.
+If the converted_price reaches the given threshold an email will be sent using smtplib.
 
 ```python
 if converted_price < 1.300:
