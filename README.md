@@ -24,3 +24,12 @@ Enter email and password here:
 server.login('stuff@stuff.com', '*****')
 ```
 
+Choose frequency for program to run price check. 
+
+```python
+find_price()
+
+while(True):
+  find_price()
+  time.sleep(60*60)
+```
