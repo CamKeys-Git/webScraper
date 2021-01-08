@@ -3,6 +3,11 @@
 ## Simple web scraper using BeutifulSoup to extract prices from Amazon and email automatic price updates at a given interval.
 
 You will need to install requests and bs4. 
+
+```terminal
+pip install requests bs4
+```
+
 You can also enable Google to "Allow less secure apps" in account settings and create a separate email password to use.
 
 Enter a product URL to parse information from (price, title etc.).
