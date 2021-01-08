@@ -14,6 +14,12 @@ Enter a product URL.
 URL = ''
 ```
 
+Now paste your "user agent" to headers. You can do this by searching "my user agent" and copying it.
+
+```python
+headers = {"User-Agent": '***'} # paste your user agent here
+```
+
 BeautifulSoup will parse information from from the webpage (price, title etc.). 
 
 ```python
