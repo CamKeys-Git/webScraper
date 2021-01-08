@@ -2,6 +2,9 @@
 
 ## Simple web scraper using BeutifulSoup to extract prices from Amazon and email price drop updates to your gmail account.
 
+*2021 UPDATE
+Amazon has recently changed its security to block certain web scraping programs...
+
 You will need to install requests and bs4. 
 
 ```terminal
