@@ -26,7 +26,7 @@ def send_mail():
   server.starttls()
   server.ehlo()
 
-  server.login('keysviolinist@gmail.com', '*****')
+  server.login('stuff@stuff.com', '*****')
 
   subject = "Price reduced!"
   body = "Check this link: https://www.amazon.com/Apple-MacBook-13-inch-256GB-Storage/dp/B07S5QWM6L/ref=sr_1_1_sspa?crid=2499CKL91IZAA&keywords=macbook+pro&qid=1582839548&sprefix=Mac%2Caps%2C182&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExNFlVWjVNUVlPMFlTJmVuY3J5cHRlZElkPUEwMDY3NzU3TlBIMUtXRFJMME9HJmVuY3J5cHRlZEFkSWQ9QTA0MDA5NzYyMUVDUTlGN05KSDE4JndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
