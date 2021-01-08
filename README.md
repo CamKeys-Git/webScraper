@@ -8,13 +8,13 @@ You will need to install requests and bs4.
 pip install requests bs4
 ```
 
-Enter a product URL.
+Enter a product URL here.
 
 ```python
 URL = ''
 ```
 
-Now paste your "user agent" to headers. You can do this by searching "my user agent" and copying it.
+Now paste your "user agent" to headers. You can do this by searching "my user agent" and copying it from the web.
 
 ```python
 headers = {"User-Agent": '***'} # paste your user agent here
@@ -74,4 +74,8 @@ while(True):
   time.sleep(60*60)
 ```
 
-To test this out, enter a price threshold that is lower than the current price. Now run the program with
+To test this out, enter a price threshold that is lower than the current price. Now run the program with:
+
+```terminal
+python webScraper.py
+```
