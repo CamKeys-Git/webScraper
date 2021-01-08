@@ -22,7 +22,7 @@ if converted_price < 1.300:
 Enter email and password here:
 
 ```python
-server.login('stuff@stuff.com', '*****')
+server.login('stuff@stuff.com', 'stuff')
 ```
 
 Choose frequency for program to run price check. (Every hour) 
