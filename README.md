@@ -25,7 +25,7 @@ Enter email and password here:
 server.login('stuff@stuff.com', '*****')
 ```
 
-Choose frequency for program to run price check. 
+Choose frequency for program to run price check. (Every hour) 
 
 ```python
 find_price()
