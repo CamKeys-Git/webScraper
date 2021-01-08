@@ -39,8 +39,9 @@ def send_mail():
 
 
 find_price()
-# while(True):
-#   find_price()
-#   time.sleep(60*60)
+
+while(True):
+  find_price()
+  time.sleep(60*60)
 
 
